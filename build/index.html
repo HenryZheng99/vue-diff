@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        #root {
+            padding: 100px;
+        }
+        #button {
+            width: 100px;
+            height: 40px;
+            background-color: aqua;
+            color: #000;
+            border-radius: 8px;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+            cursor: pointer;
+        }
+        #button:hover {
+            background-color: rgba(116, 116, 231, 0.972);
+            color: #FFF;
+        }
+    </style>
+</head>
+<body>
+    <div id="root">
+        <p>按下执行Diff算法，更新dom:</p>
+        <div id="button">按钮</div>
+    </div>
+    <script>
+        let root = document.getElementById('root');
+        window.root = root;
+    </script>
+<script type="text/javascript" src="index-min.js"></script></body>
+</html>
