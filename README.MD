@@ -2,11 +2,24 @@
 
 实现一个简单的diff算法流程
 
-流程图如下：
+## running
+```markdown
+# 克隆项目
+git clone https://github.com/zhenghanhao1999/vue-diff.git
 
-<img src="G:\vue-diff\images\流程图.PNG" alt="流程图" style="zoom:80%;" />
+# 安装依赖
+npm install
+
+# 打包编译
+npm run build
+
+# 运行
+打开build目录下的index.html
+```
 
 ## 详解
+流程图如下：
+<img src="G:\vue-diff\images\流程图.PNG" alt="流程图" style="zoom:80%;" />
 
 #### 什么是虚拟DOM ？
 
